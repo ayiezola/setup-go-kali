@@ -46,6 +46,7 @@ sudo mv httpx /usr/local/bin/
 
 # installing tools using go
 echo "install go"
+cd ~
 go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/waybackurls
 go get -u github.com/tomnomnom/anew
@@ -55,4 +56,4 @@ go get -u github.com/dwisiswant0/unew
 sudo apt install python3-pip -y
 
 echo "You will be reboot in few second!"
-reboot
+sudo reboot
